@@ -128,7 +128,14 @@ body {
           // justify-content: space-between;
 
           .main__select2text1Svg1 {
-            .main__circle1 {
+            .main__svg1 {
+              &::after {
+                content: "";
+                height: 40px;
+                width: 40px;
+                border: solid 1px;
+                border-radius: 20px;
+              }
             }
           }
           .main__select2text1c1 {
